@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Main from "@/components/Main";
 
 
 
@@ -6,12 +7,10 @@ export default function Home() {
 
   return (
     <main className=''>
-      <Header/>
-      <main className="main">
-main
-      </main>
-<footer>
-  footer</footer>    
+      <Header />
+      <Main/>
+      <footer>
+        footer</footer>
     </main>
   )
 }
