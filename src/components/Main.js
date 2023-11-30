@@ -16,7 +16,7 @@ export default function Main() {
             >
 
                 <Grid container sx={{ overflowX: 'auto',  }}>
-                    <Grid container className='a_tbdr' gap={7}  sx={{
+                    <Grid container className='' gap={7}  sx={{
                         mt:1,
                         bgcolor: '#ffff',
                         minHeight: '14vh',
