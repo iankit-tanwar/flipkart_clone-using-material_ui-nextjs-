@@ -8,18 +8,16 @@ export default function Main() {
             <Container
                 sx={{
                     height: '100vh',
-                    mt: 1,
+                    
                     p: 0,
                     maxWidth: { xs: '100%', md: '1650px' },
-                    '@media (max-width: 600px)': {
-                        
-                        marginTop:'0px'
-                    }
+                    
                 }}
             >
 
-                <Grid container sx={{ overflowX: 'auto', }}>
-                    <Grid container className='' gap={5}  sx={{
+                <Grid container sx={{ overflowX: 'auto',  }}>
+                    <Grid container className='a_tbdr' gap={7}  sx={{
+                        mt:1,
                         bgcolor: '#ffff',
                         minHeight: '14vh',
                         display: 'flex',
@@ -33,12 +31,13 @@ export default function Main() {
                         , flexWrap: 'nowrap',
                         '@media (max-width: 600px)': {
                             justifyContent: 'initial',
-                            fontSize:'14px'
+                            fontSize:'14px',
+                            marginTop:'0px'
                            
                         },
                     }}>
                         <Grid item xs='auto'sx={{'@media (max-width: 600px)': {
-                            marginLeft:'50px',
+                            marginLeft:'45px',
                             
                            
                         }}} >
