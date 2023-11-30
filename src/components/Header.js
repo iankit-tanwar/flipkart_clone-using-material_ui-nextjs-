@@ -75,7 +75,7 @@ export default function Header() {
     const open = Boolean(anchorEl);
 
     return (
-        <header className='a_tbdr'>
+        <header className=''>
             <Box sx={{ flexGrow: 1 }}  >
                 <AppBar position="fixed" sx={{ backgroundColor: 'white', boxShadow:'none' }}>
                     <Toolbar sx={{ justifyContent: 'center' }}>
