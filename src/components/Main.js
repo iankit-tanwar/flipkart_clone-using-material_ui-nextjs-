@@ -275,7 +275,7 @@ export default function Main() {
                             }}>
 
                                 <CardMedia
-                                   
+                                    
                                     component="img"
                                     height="200px"
                                     alignItems='center'
@@ -321,7 +321,7 @@ export default function Main() {
                             }}>
 
                                 <CardMedia
-                                   
+                                    
                                     component="img"
                                     height="200px"
                                     alignItems='center'
@@ -367,7 +367,7 @@ export default function Main() {
                             }}>
 
                                 <CardMedia
-                                   
+                                    
                                     component="img"
                                     height="200px"
                                     alignItems='center'
@@ -459,7 +459,7 @@ export default function Main() {
                             }}>
 
                                 <CardMedia
-                                   
+                                    
                                     component="img"
                                     height="200px"
                                     alignItems='center'
@@ -505,53 +505,7 @@ export default function Main() {
                             }}>
 
                                 <CardMedia
-                                   
-                                    component="img"
-                                    height="200px"
-                                    alignItems='center'
-                                    image="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/v/e/-original-imagtyxbptwcpjta.jpeg?q=70"
-                                    alt="Paella dish"
-                                    sx={{
-                                        display: 'flex',
-                                        justifyContent: 'center',
-                                        objectFit: 'cover',
-                                        '@media (max-width: 600px)': {
-                                            height: 'auto',
-                                            width: '120px',
-                                            objectFit: 'cover',
-                                            justifyContent: 'center',
-                                            marginLeft: '12px'
-                                        }
-                                    }}
-                                />
-
-                                <CardContent sx={{ textAlign: 'center' }}>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Realme 11 pro 5G
-                                    </Typography>
-                                    <Typography variant="body2" color="text.bolder">
-                                        Incl of offer
-                                    </Typography>
-                                </CardContent>
-
-
-
-                            </Card>
-                        </Link>
-                        <Link href="your_link_url_here" underline="none" style={{ textDecoration: 'none' }}>
-
-                            <Card sx={{
-                                maxWidth: 250, marginLeft: '10px', padding: '10px', border: '1px solid #ccc',
-                                borderRadius: '5px', '@media (max-width: 600px)': {
-                                    flexWrap: 'nowrap',
-                                    overflowX: 'auto',
-                                    height: '220px',
-
-                                },
-                            }}>
-
-                                <CardMedia
-                                   
+                                    
                                     component="img"
                                     height="200px"
                                     alignItems='center'
